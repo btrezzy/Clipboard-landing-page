@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+/* note:-overflow hidden made in x directrion in body */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  background: url("images/bg-header-desktop.png") repeat-x ; 
+  overflow-x: hidden;
+}
+
+/* .copy{
+    position: absolute;
+    top: 0;
+    margin-top: 7.2rem;
+    margin-left: 35rem;
+} */
+
+/* .copy {
+  margin-top: 7rem;
+  margin-left: 37rem;
+} */
+
+
+
+.textbox1 {
+ 
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+   margin-top: 7rem; 
+    /* 7rem */
+   
+}
+
+.textbox1 .text1 {
+  margin-top: 5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.textbox1 .text2 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.button1 :hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.button2 :hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+
+.button1 .p1 {
+  /* margin-right: 1rem; */
+  font-size: 1.2rem;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  font-weight: bold;
+  padding: 0.9rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 2px 1px 1px hsl(171, 66%, 33%),
+    0 5px 10px 0px hsl(171, 66%, 33%);
+}
+
+.button .p2 {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  font-weight: bold;
+  padding: 0.9rem;
+  /* padding-left: 2rem; */
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 2px 1px 1px hsl(233, 100%, 59%),
+    0 5px 10px 0px hsl(233, 100%, 59%);
+}
+
+.textbox2 {
+  display: flex;
+  margin-top: 9rem;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.textbox2 .text1 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.textbox2 .text2 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.area3 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.monitor .monitor1 {
+  width: 650px;
+}
+
+.textarea {
+    /* mleft7rem */
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea .text1 .dark {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.textarea .text1 .light {
+  font-size: 1.2rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 2rem;
+}
+
+.area4 {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.area4 .textarea .dark {
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.area4 .textarea .light {
+  font-size: 1.2rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+
+.area5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.area5 .dark {
+  margin-top: 4.5rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-right: 6rem;
+}
+
+.area5 .light {
+  font-size: 1.2rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+
+.imagearea {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  /* margin-left: 10rem; */
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* margin: 0rem 2rem 0rem 2rem; */
+}
+
+.lito {
+  width: 3vw;
+  margin-left: 10rem;
+}
+
+.imagearea .dark {
+  margin-top: 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin: 2rem 3rem 1.3rem 3rem;
+}
+
+.imagearea .light {
+  margin: 0rem 2rem 0rem 2rem;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+.imagearealast {
+  margin-top: 8.6rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imagearealast .img1 {
+  width: 8rem;
+}
+
+.buttonlast {
+  margin-top: 2rem;
+}
+
+.textatlast {
+  margin-top: 5rem;
+}
+
+/* footer {
+  margin-top: 11.5rem;
+  background-color: hsla(202, 11%, 66%, 0.053);
+  width: 78.94rem;
+  height: 8rem;
+}
+
+.worklast {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastimg {
+  width: 3.3rem;
+  height: 3.3rem;
+  margin-left: 5.8rem;
+  margin-top: 2.3rem;
+}
+
+.textlast {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: hsl(201, 11%, 66%);
+}
+
+
+.up {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  margin-bottom: 2rem;
+}
+
+
+.down {
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.up :hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.down :hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+
+.logolast {
+  margin-top: 3.8rem;
+  margin-left: 10rem;
+  display: grid;
+  grid-template-columns: 4rem 4rem 4rem;
+}
+
+.fb {
+    opacity: 0.5;
+    border-radius: 0.8rem;
+    
+  }
+
+
+
+.twt {
+  opacity: 0.5;
+}
+
+.insta {
+  opacity: 0.5;
+}
+
+.fb:hover{
+    cursor: pointer;
+    
+}
+
+.twt:hover{
+    cursor: pointer;
+    
+}
+
+.insta:hover{
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    
+    
+}
+ */
+
+ .textbox3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 7rem; */
+  }
+  
+  .textbox3 .text1 {
+    margin-top: 5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .textbox3 .text2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: hsl(201, 11%, 66%);
+  }
+
+
+ footer{
+    display: flex;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 98%);
+    justify-content: space-around;    
+ }
+
+ .logolast{
+    display: grid;
+    justify-content: center;
+ }
+
+ .logolast img{
+    padding: 30px 0px;
+    width: 59px;
+    
+ }
+
+ .links{
+    display: grid;
+    /* grid-template-columns: repeat( 3,1fr); */
+    grid-template-columns: 180px 180px 190px;
+    justify-items: start;
+    align-items: center;
+    gap:  34px 0px;
+    align-content: center;
+    margin-top: 15px;
+
+    /* in flex if gap used, it gaps the boxes, hence li seperates, and hover works only on the text, instead if padding used, the  the hover will work upto the padding's lenght */
+
+ }
+
+ .links li{
+    
+     /* padding: 18px; */
+     font-size: 1.1rem;
+     font-weight: bold;
+     color: hsl(201, 11%, 66%);
+     list-style: none;
+     
+
+    
+ }
+
+ .logo-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 37px;
+    opacity: 0.5;
+
+
+ }
+
+
+ .links   :hover {
+    cursor: pointer;
+    color:hsl(171, 66%, 44%);
+    
+
+ }
+
+  .logo-icon i:hover{
+    cursor: pointer;
+  }
+
+
+ 
